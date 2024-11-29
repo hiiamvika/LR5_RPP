@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(248, 183, 238);
+    color: rgb(37, 7, 142);
+    font-family: Arial; 
+    margin: 0px;
+}
+header {
+    background: purple;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 16pt;
+    font-style: italic;
+}
+footer {
+    background: purple;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 16pt;
+    font-style: italic;
+    text-align: right;
+    margin: 0%;
+}
+p {
+    margin: 15px;
+}
+a {
+    margin: 15px;
+}
+main {
+    margin: 10px 20px;
+}

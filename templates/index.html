@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block lab %}Лабораторная работа 5{% endblock %}
+
+{% block main %}
+<div>Разработка программных приложений. Тема: "Разработка механизмов аутентификации и авторизации для WEB-приложений на
+    Flask"</div>
+<div style = "background: white;font-size: 20px;display: flex;text-align: center;">
+    <div style="margin: 3%;display: flex;">
+    </div>
+    <form action="/logout">
+        <input type="submit" value="Logout" />
+    </form>
+</div>
+{% endblock %}

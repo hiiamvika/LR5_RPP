@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block lab %}{% endblock %}
+
+{% block main %}
+<form method="post" style="border: 2px solid;border-radius: 8px; background-color: rgb(249, 220, 249); color: rgb(32, 19, 61);border-color: darkmagenta;font-size: 17px;padding: 15px;height: min-content;width: 446px;margin: 10px auto;font-weight: bold;text-align: center;">
+    <h1>Страница авторизации</h1>
+
+    <div style="padding: 20px;">
+        <input type="text" name="email" placeholder="email" style="height: 35px;width: 212px;">
+        <label for="email">Почта</label>
+    </div>
+
+    <div style="padding: 20px;">
+        <input type="text" name="password" placeholder="password" style="height: 35px;width: 212px;">
+        <label for="password">Пароль</label>
+    </div>
+    <div>
+        <button type="submit" style="padding: 20px;height: 35px;width: 212px; background: rgb(209, 171, 241);">Войти</button>
+    </div>
+    <div style="color: brown; padding: 20px; height: 35px;width:auto;">
+       {{ errors }}
+    </div>
+    <div>Вы еще не зарегистрированы?
+        <a href="/signup">Регистрация</a>
+    </div>
+</form>
+{% endblock %}
